@@ -42,4 +42,4 @@ all_data <- cbind(xdata, ydata, subdata)
 
 ##creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 averages_data <- daply(all_data, .(subject, activity), function(x) colMeans(x[, 1:66]))
-write.table(averages_data, "averages_data.txt", row.name=FALSE
+write.table(averages_data, "averages_data.txt", row.name=FALSE)
