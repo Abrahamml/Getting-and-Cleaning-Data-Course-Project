@@ -1,0 +1,6 @@
+VARIABLES USED:
+xtrain, ytrain, xtest, ytest, subtrain and subtest contain the data from the downloaded files.
+xdata, ydata and subdata merge the previous datasets to further analysis.
+"features" contains the correct names for the x_data dataset, stored in mean_and_std_features.Similar approach used in for "Activities"
+all_data merges xdata, ydata and subdata.
+averages_data contains averages which will be later stored in a .txt file
